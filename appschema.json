@@ -1,0 +1,279 @@
+{
+    "propertiesInfo": {
+        "title": "QuickReport Properties",
+        "categoryInfos": [
+            {
+                "title": "Start Screen",
+                "propertyInfos": [
+                    {
+                        "type": "image",
+                        "label": "Background image",
+                        "hint": "Image to use for the start page background.",
+                        "name": "startBackground",
+                        "folder": "assets"
+                    },
+                    {
+                        "type": "number",
+                        "label": "Base font size",
+                        "hint": "Sets the base font size used throughout the app.",
+                        "name": "baseFontSize"
+                    },
+                    {
+                        "type": "file",
+                        "label": "Title Font file",
+                        "name": "customTitleFontTTF",
+                        "hint": "Sets the custom font to be used throughout the app for title and headings.",
+                        "folder": "assets",
+                        "filters": [
+                            "True Type Fonts (*.ttf)"
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "label": "Text Font file",
+                        "name": "customTextFontTTF",
+                        "hint": "Sets the custom font to be used throughout the app for the text.",
+                        "folder": "assets",
+                        "filters": [
+                            "True Type Fonts (*.ttf)"
+                        ]
+                    },
+                    {
+                        "type": "boolean",
+                        "label": "Show logo",
+                        "hint": "Shows or hides the logo and its link on the start page.",
+                        "name": "startShowLogo"
+                    },
+                    {
+                        "type": "image",
+                        "label": "Logo",
+                        "hint": "Image to use for the logo displayed on the start page.",
+                        "name": "logoImage",
+                        "folder": "assets"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Logo URL",
+                        "hint": "URL to launch when the logo on the start page is clicked.",
+                        "name": "logoUrl"
+                    },
+                    {
+                        "type": "note",
+                        "text": "Footer links"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Phone number label",
+                        "hint": "Label that is displayed for the phone number.",
+                        "name": "phoneLabel"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Phone number",
+                        "hint": "Enter the actual phone number.",
+                        "name": "phoneNumber"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Website label",
+                        "hint": "Label that is displayed for the website.",
+                        "name": "websiteLabel"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Website",
+                        "hint": "Enter the actual website Url.",
+                        "name": "websiteUrl"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Email label",
+                        "hint": "Label that is displayed for the email address.",
+                        "name": "emailLabel"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Email address",
+                        "hint": "Enter the actual email address.",
+                        "name": "emailAddress"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Social media label",
+                        "hint": "Label that is displayed for the social media Url.",
+                        "name": "socialMediaLabel"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Social media",
+                        "hint": "Enter the actual social media Url.",
+                        "name": "socialMediaUrl"
+                    }
+                ]
+            },
+            {
+                "title": "Form",
+                "propertyInfos": [
+                    {
+                        "type": "string",
+                        "label": "Webmap ID for the Map to choose location.",
+                        "hint": "You can provide one public WebMap ID that provides useful information for the user to choose report location. All default basemaps are also provides as WebMaps.",
+                        "name" : "webMapID"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Item ID for Mobile map package.",
+                        "hint": "You can provide one public Mobile map package (mmpk) item ID that can be used to download an offline map. If mmpk is not created using the ArcGIS Pro Publisher extension with anonymous use enabled, then this functionality is available only with a secured feature service address.",
+                        "name" : "offlineMMPKID"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Feature service address",
+                        "hint": "URL of the feature layer in which to capture the observation record. For example, http://sampleserver6.arcgisonline.com/arcgis/rest/services/ServiceRequest/FeatureServer",
+                        "name" : "featureServiceURL"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Disaster type IDs",
+                        "hint": "ID of the disaster type, 0-flood, 1-hurricane, 2-wildfire",
+                        "name": "disasterTypeId"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Report type IDs",
+                        "hint": "ID of the report type, 0-damage, 1-request, 2-donate",
+                        "name": "reportTypeId"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Damage type IDs",
+                        "hint": "ID of the damage type, 0-casualties, 1-road, 2-building, 3-others",
+                        "name": "damageTypeId"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Layer IDs of the feature service",
+                        "hint": "ID of the feature layer in which to capture the observation record. You can add one or multiple feature layer IDs from the same feature service. For example, 0,1,2",
+                        "name": "featureLayerId"
+                    },
+                    {
+                        "type":"string",
+                        "label":"Payload URL",
+                        "hint":"Configure optional URL to send info about a successfully submitted report to an external Webhook like Microsoft Flow or Zapier or Integromat or any other preferred web service in JSON format.",
+                        "name":"payloadUrl"
+
+                    },
+                    {
+                        "type": "string",
+                        "label": "Thank you message",
+                        "hint": "Feedback text to be shown when user submits a report. You can make this personable to thank the user and also have a call to action (Supports HTML links)",
+                        "name": "thankyouMessage"
+                    },
+                    {
+                        "type": "string",
+                        "label": "Report help link",
+                        "hint": "Help or instructions to help fill out the report. Can be a local HTML file or a URL. For example, assets/help.html or https://www.esri.com/en-us/arcgis/products/arcgis-appstudio/overview ",
+                        "name": "reportHelpUrl"
+                    },
+                    {
+                        "type": "boolean",
+                        "label": "Allow skipping of attachments",
+                        "hint": "Enables the user to skip the attachment upload in the form. If false then user must provide at least one form of attachment. It can be photos, an audio or a video (if enabled).",
+                        "name": "allowPhotoToSkip"
+                    },
+                    {
+                        "type": "boolean",
+                        "label": "Show Album",
+                        "hint": "Enables the user to choose photo from album. The default value is true.",
+                        "name": "showAlbum"
+                    },
+                    {
+                        "type": "boolean",
+                        "label": "Enable select files (BETA)",
+                        "hint": "Enables the user to choose files as attachments. The default value is true.",
+                        "name": "enableSelectFiles"
+                    },
+                    {
+                        "type": "boolean",
+                        "label": "Enable video recorder (BETA)",
+                        "hint": "Enables video recording of up to 30 seconds to be attached as part of report.",
+                        "name": "supportVideoRecorder"
+                    },
+                    {
+                        "type": "boolean",
+                        "label": "Enable audio recorder (BETA)",
+                        "hint": "Enables audio recording of up to 2 minutes to be attached as part of report.",
+                        "name": "supportAudioRecorder"
+                    },
+                    {
+                        "type": "options",
+                        "name": "maximumAttachments",
+                        "hint": "This property allows you to limit the number of attachments per feature. Attachments can be photos, an audio or a video (if enabled). The default and maximum value is 6. The minimum number you can set is 1.",
+                        "label": "Maximum allowable number of attachments",
+                        "options": [
+                            {
+                                "label": "1",
+                                "value": "1"
+                            },
+                            {
+                                "label": "2",
+                                "value": "2"
+                            },
+                            {
+                                "label": "3",
+                                "value": "3"
+                            },
+                            {
+                                "label": "4",
+                                "value": "4"
+                            },
+                            {
+                                "label": "5",
+                                "value": "5"
+                            },
+                            {
+                                "label": "6",
+                                "value": "6"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Colors",
+                "propertyInfos": [
+                    {
+                        "type": "color",
+                        "label": "Background color",
+                        "hint": "Color to use for the app page background.",
+                        "name": "pageBackgroundColor"
+                    },
+                    {
+                        "type": "color",
+                        "label": "Text color",
+                        "hint": "Color to use for the text.",
+                        "name": "textColor"
+                    },
+                    {
+                        "type": "color",
+                        "label": "Header text color",
+                        "hint": "Color to use for the header text.",
+                        "name": "headerTextColor"
+                    },
+                    {
+                        "type": "color",
+                        "label": "Header background color",
+                        "hint": "Color to use for the header background area.",
+                        "name": "headerBackgroundColor"
+                    },
+                    {
+                        "type": "color",
+                        "label": "Button color",
+                        "hint": "Color to use for the buttons throughout the app.",
+                        "name": "buttonColor"
+                    }
+                ]
+            }
+        ]
+    }
+}

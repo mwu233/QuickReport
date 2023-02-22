@@ -1,0 +1,62 @@
+{
+    "access": "org",
+    "accessInformation": "Build amazing cross-platform mobile, tablet, and desktop apps in one codebase quickly and efficiently using ArcGIS AppStudio.",
+    "advancedSettings": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1639245778000,
+    "culture": "en-us",
+    "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>This is a citizen engagement native app that allows you to capture an observation and submit it to an online service. You can also query the publicly shared reports that were created by citizens. Windows, Android, iOS, and Mac apps can be generated from this code base, enabling developers to deploy this all-platform app easily.</p>",
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "7f31176ec53a4f428e4726fdcd910874",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1639547677000,
+    "name": "7f31176ec53a4f428e4726fdcd910874.zip",
+    "numComments": 4,
+    "numRatings": 0,
+    "numViews": 0,
+    "owner": "Project1",
+    "ownerFolder": null,
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 53,
+    "screenshots": [
+    ],
+    "size": 2434211,
+    "snippet": "Citizen sourced data collection",
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/thumbnail.png",
+    "title": "Quick Report & Query",
+    "type": "Native Application",
+    "typeKeywords": [
+        "API_QML",
+        "App",
+        "Application",
+        "AppStudio",
+        "Configuration",
+        "Native",
+        "qml"
+    ],
+    "url": null
+}

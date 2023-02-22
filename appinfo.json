@@ -1,0 +1,184 @@
+{
+    "appLink": "",
+    "arcgisRuntime": {
+        "version": {
+            "major": 100,
+            "minor": 10
+        }
+    },
+    "capabilities": {
+        "audio": true,
+        "backgroundModes": {
+            "audio": {
+                "enabled": false
+            },
+            "bluetooth": {
+                "central": {
+                    "enabled": false
+                }
+            },
+            "ios": {
+                "externalAccessory": false
+            },
+            "location": {
+                "enabled": false
+            }
+        },
+        "beacon": false,
+        "biometricAuthentication": false,
+        "bluetooth": false,
+        "camera": true,
+        "fileSharing": false,
+        "highAccuracyLocation": false,
+        "ios": {
+            "externalAccessoryProtocolStrings": [
+            ]
+        },
+        "localnotification": false,
+        "location": true,
+        "microphone": true,
+        "network": true,
+        "storage": false,
+        "vibration": false
+    },
+    "deployment": {
+        "android": {
+            "packageName": ""
+        },
+        "arcgisRuntimeExtensionsLicense": "",
+        "arcgisRuntimeLicense": "runtimelite,1000,rud6707897439,none,8SH93PJPXMLF003AD233",
+        "clientId": "",
+        "ios": {
+            "bundleId": "",
+            "codeSignIdentity": ""
+        },
+        "macos": {
+            "bundleId": "",
+            "codeSignIdentity": ""
+        },
+        "publisherName": "",
+        "shortcutName": "",
+        "uwp": {
+            "packageName": "",
+            "productID": ""
+        }
+    },
+    "devicesTypes": [
+        "desktop",
+        "tablet",
+        "phone"
+    ],
+    "display": {
+        "desktop": {
+            "minimumHeight": 500,
+            "minimumWidth": 320,
+            "windowMode": "default"
+        },
+        "enableHighDpi": true,
+        "phone": {
+            "landscape": false,
+            "portrait": true,
+            "showStatusBar": true
+        },
+        "tablet": {
+            "landscape": true,
+            "portrait": true,
+            "showStatusBar": true
+        },
+        "windows": {
+            "renderingEngine": "default"
+        }
+    },
+    "environment": {
+    },
+    "launchUrlSchemes": [
+    ],
+    "mainFile": "app.qml",
+    "make": {
+        "ignore": [
+            "QuickReport/languages/*.sh",
+            "QuickReport/languages/*.bat",
+            "QuickReport/languages/*.ts",
+            "*.bat"
+        ],
+        "ios": {
+            "enableBitcode": false
+        }
+    },
+    "multipleInstances": true,
+    "projectFile": "app.qmlproject",
+    "properties": {
+        "allowPhotoToSkip": true,
+        "baseFontSize": 20,
+        "buttonColor": "#FF7E09",
+        "customTextFontTTF": "assets/OpenSans-Regular.ttf",
+        "customTitleFontTTF": "assets/OpenSans-Regular.ttf",
+        "damageTypeId": "0,1,2,3",
+        "disasterTypeId": "0,1,2",
+        "emailAddress": "mwu233@wisc.edu",
+        "emailLabel": "Email",
+        "enableSelectFiles": true,
+        "featureLayerId": "0",
+        "featureServiceURL": "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Hurricane_Observation/FeatureServer",
+        "headerBackgroundColor": "#0079C1",
+        "headerTextColor": "#FFF",
+        "logoImage": "assets/color-UWcrest-print.png",
+        "logoUrl": "https://geography.wisc.edu/",
+        "maximumAttachments": "6",
+        "offlineMMPKID": "",
+        "pageBackgroundColor": "#F8F8F8",
+        "password": "",
+        "payloadUrl": "",
+        "phoneLabel": "Call us",
+        "phoneNumber": "+1-909-793-2853",
+        "reportHelpUrl": "",
+        "reportTypeId": "0,1,2",
+        "showAlbum": true,
+        "signInImage": "",
+        "socialMediaLabel": "Follow us",
+        "socialMediaUrl": "",
+        "sortDomainByAlphabetical": false,
+        "startBackground": "assets/hurricane.jpg",
+        "startShowLogo": true,
+        "supportAudioRecorder": true,
+        "supportVideoRecorder": true,
+        "textColor": "#4C4C4C",
+        "thankyouMessage": "",
+        "username": "",
+        "webMapID": "2e6636db98c64d0882deb005b3307d51",
+        "websiteLabel": "Website",
+        "websiteUrl": "http://appstudio.arcgis.com"
+    },
+    "resources": {
+        "appIcon": "appicon.png",
+        "launchImageBackground": "launchimage-background.png",
+        "launchImageBackgroundColor": "#ffffff",
+        "launchImageOverlay": "launchimage-overlay.png"
+    },
+    "templateName": "quickreport",
+    "translations": {
+        "fileName": [
+            "QuickReport",
+            "qtquickcontrols",
+            "qtbase_min"
+        ],
+        "path": "QuickReport/languages",
+        "translateUsageDescriptionKeys": true
+    },
+    "type": "app",
+    "universalLink": "",
+    "urlScheme": "",
+    "usageDescriptionKeys": {
+        "bluetoothUsageDescription": "This app uses bluetooth to scan and connect to devices.",
+        "cameraUsageDescription": "This app uses your camera to take photos or video to submit with the report.",
+        "locationAlwaysUsageDescription": "This app needs access to device location when the app is running or in the background.",
+        "locationWhenInUseUsageDescription": "This app uses your location when the app is in use to capture your current position.",
+        "microphoneUsageDescription": "This app uses your microphone to record audio to submit with your report.",
+        "photoLibraryUsageDescription": "This app uses your image library to select and submit images with your report."
+    },
+    "version": {
+        "major": 1,
+        "micro": 4,
+        "minor": 0
+    }
+}

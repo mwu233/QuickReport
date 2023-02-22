@@ -1,0 +1,30 @@
+//------------------------------------------------------------------------------
+// Created Wednesday, 10 June 2015 8:38:40 AM
+//------------------------------------------------------------------------------
+
+import QmlProject 1.1
+
+Project {
+    mainFile: "app.qml"
+
+    QmlFiles {
+        directory: "."
+        recursive: true
+    }
+
+    JavaScriptFiles {
+        directory: "."
+        recursive: true
+    }
+
+    ImageFiles {
+        directory: "."
+        recursive: true
+    }
+
+    Files {
+        directory: "."
+        recursive: true
+        filter: "*.json;*.html;*.txt;*.xml"
+    }
+}

@@ -1,0 +1,7 @@
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app uses bluetooth to scan and connect to devices.");
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app uses your camera to take photos or video to submit with the report.");
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app needs access to device location when the app is running or in the background.");
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app uses your location when the app is in use to capture your current position.");
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app uses your microphone to record audio to submit with your report.");
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app uses your image library to select and submit images with your report.");
+QT_TRANSLATE_NOOP("AppInfoJSON", "This app uses your photo library to save photo in camera roll for use in the app.");
